@@ -1,0 +1,21 @@
+#chatbox {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  #chatlog {
+    height: 80%;
+  }
+  
+  #inputbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
